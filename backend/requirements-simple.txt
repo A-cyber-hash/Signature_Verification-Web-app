@@ -1,0 +1,25 @@
+# SignaSecure Enterprise - Core Requirements (Simplified)
+
+# Core Django
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+djangorestframework-simplejwt==5.3.1
+
+# Utilities
+python-decouple==3.8
+requests==2.31.0
+cryptography==41.0.7
+Pillow==10.1.0
+
+# API Docs
+drf-spectacular==0.26.5
+
+# Production Server
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Optional: ML/CV (install separately if needed)
+# numpy==1.24.3
+# opencv-python==4.8.1.78
+# scikit-learn==1.3.2
